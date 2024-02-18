@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HelloStruct
 {
@@ -17,13 +13,24 @@ namespace HelloStruct
             stu2.Name = "Mike";
            //打印出的内容还是之前stu1内容
             Console.WriteLine($"#{stu1.ID} Name:{stu1.Name}");
+
+            stu1.Speak();
         }
 
-        //结构体使用方法和类很相似
-        struct Student
+        interface ISpeak
+        {
+            void Speak();
+        }
+
+        //结构体使用方法和类很相似,还能实现接口
+        struct Student:ISpeak
         {
             public int ID { get; set; }
             public string Name { get; set; }
+            public void Speak()
+            {
+                Console.WriteLine($"#{this.ID} Name:{this.Name}");
+            }
         }
     }
 }
