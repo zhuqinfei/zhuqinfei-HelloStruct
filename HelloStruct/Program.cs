@@ -15,6 +15,7 @@ namespace HelloStruct
             Console.WriteLine($"#{stu1.ID} Name:{stu1.Name}");
 
             stu1.Speak();
+
         }
 
         interface ISpeak
@@ -25,6 +26,13 @@ namespace HelloStruct
         //结构体使用方法和类很相似,还能实现接口
         struct Student:ISpeak
         {
+            //结构体可以有带参数的构造器，但是不能有无参数的构造器
+            public Student(int id,string name)
+            {
+                this.ID = id;
+                this.Name = name;
+
+            }
             public int ID { get; set; }
             public string Name { get; set; }
             public void Speak()
