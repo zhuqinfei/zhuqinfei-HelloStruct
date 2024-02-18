@@ -1,0 +1,7 @@
+D:\c#练习项目\HelloStruct\HelloStruct\bin\Debug\HelloStruct.exe.config
+D:\c#练习项目\HelloStruct\HelloStruct\bin\Debug\HelloStruct.exe
+D:\c#练习项目\HelloStruct\HelloStruct\bin\Debug\HelloStruct.pdb
+D:\c#练习项目\HelloStruct\HelloStruct\obj\Debug\HelloStruct.csproj.AssemblyReference.cache
+D:\c#练习项目\HelloStruct\HelloStruct\obj\Debug\HelloStruct.csproj.CoreCompileInputs.cache
+D:\c#练习项目\HelloStruct\HelloStruct\obj\Debug\HelloStruct.exe
+D:\c#练习项目\HelloStruct\HelloStruct\obj\Debug\HelloStruct.pdb
